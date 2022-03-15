@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cotação do dolar/euro</title>
+</head>
+
+<body id="body">
+    <header id="my-header">
+        <h1 id="titulo-principal">Preço atual do dolar, euro e bitcoin hoje </h1>
+    </header>
+    <main id="content-main">
+        <div class="divs-content" id="div-content-one">
+            <select name="select-currency" id="currency-cotação">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BTC">BTC</option>
+            </select>
+        </div>
+        <div class="divs-content" id="div-content-two">
+            <div id="div-input">
+                
+
+                <input type="tel" id="input-currency" 
+                placeholder="0,00" maxlength="20">
+                <small id="alert"></small>
+            </div>
+            
+            <div id="div-result">
+                <input type="tel" id="valorReal" maxlength="20">
+
+            </div>
+        </div>
+    </main>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

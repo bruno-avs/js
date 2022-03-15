@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condição composta</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Qual é o seu paiis de origem?
+        </h1>
+        <span>Pais: <Input type="text" name="txt01" id="txt01"></Input> <input type="button" value="verificar" onclick="clicar()"></span>
+        <div id="res"></div>
+    </main>
+    <script>
+        function clicar() {
+            var valor = document.getElementById('txt01')
+            var res = document.querySelector('div#res')
+            var vel = String(valor.value).toLowerCase()
+            res.innerHTML = `Nossa você é do ${vel}`
+            
+            if(vel == 'brasil'){
+                res.innerHTML+= `<p>Então você é <strong>brasilheiro</strong>.</p> `
+            }
+            else{
+                res.innerHTML += `<p>Então você é <strong>estrangeiro</strong>.</p>`
+            }
+            res.innerHTML += `<p>Seja bem vindo ao nosso pais</p>`
+        }
+    </script>
+</body>
+</html>

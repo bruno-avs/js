@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="BancoBrasil.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estiloBanco-cadastro-login.css">
+
+</head>
+<body>
+    <nav id="menu">
+           <img src="BancoBrasil.ico" alt="logo banco" id="foto-b">
+           <ul type="none" id="list-menu"> 
+               <li class="item-lista"><a href="index.html" id="voutar-home" rel="prev" target="_self" class="link-list">Home</a></li>
+               <li class="item-lista"><a href="pag03_login.html" id="ir-login" rel="next" target="_self" class="link-list">entrar</a></li>
+               <li class="item-lista"><a href="pag03_login.html" id="ir-login" rel="next" target="_self" class="link-list">entrar</a></li>
+               <li class="item-lista"><a href="#" class="link-list">beneficios</a></li>
+               <li class="item-lista"><a href="#" class="link-list">emprestimos</a></li>
+           </ul>
+           <div id="login">
+            <a href="pag03_login.html" rel="next" target="_self"><button id="button-entrar">entrar</button></a>
+        </div>
+    </nav>
+    <header>
+        <div id="logo-banco">
+            Banco brasil
+        </div>
+        <h1 id="extra-h1">
+            Entre agora para nossa familia e faça seu dinheiro render
+        </h2>
+        <div id="header-sociais">
+            <a href="#">
+                <Button id="button-facebook" class="button-sociais"> Facebook</Button>               
+            </a>
+            <a href="#">
+                <Button id="button-twitter" class="button-sociais"> Twitter</Button>               
+            </a>
+            <a href="#">
+                <Button id="button-instagram" class="button-sociais"> instagram</Button>               
+            </a>
+        </div>
+    </header>
+    
+        <main id="main">
+            <h2 id="h2-abrir">Abra sua conta</h2>
+            <div id="content-cadastro">
+        
+                <label for="nome-cadas" class="labels-inputs">Nome <span id="alerta00"></span></label>
+                <input type="text" id="nome-cadas" name="nome-pessoa" class="inputs" maxlength="100"placeholder="Digite seu nome"  onclick="alertNone00()"autofocus >
+                <label for="sobrenome-cadas" class="labels-inputs">Sobrenome <span id="alerta01"></span></label>
+                <input type="text" id="sobrenome-cadas" name="nome-pessoa"  class="inputs" maxlength="100" placeholder="Digite seu sobrenome" onclick="alertNone01()">
+                <label for="cpf-cadas" class="labels-inputs">Cpf <span id="alerta02"></span></label>
+                <input type="tel" id="cpf-cadas" name="pessoa-cpf"  class="inputs" maxlength="14" placeholder="Digite seu CPF" onclick="alertNone02()">
+                <label for="email-cadas" class="labels-inputs">E-mail <span id="alerta03"></span></label>
+                <input type="email" id="email-cadas" name="pessoa-email"  class="inputs" maxlength="100" placeholder="Digite seu e-mail" onclick="alertNone03()">
+                <label for="numero-cadas" class="labels-inputs">Número <span id="alerta04"></span></label>
+        
+                <input type="tel" id="numero-cadas" name="pessoa-numero"  class="inputs" maxlength="13" placeholder="Digite seu telefone " onclick="alertNone04()">
+                <label for="dataNacimento-cadas" class="labels-inputs">Data de nacimento <span id="alerta05"></span></label>
+                <input type="tel" id="dataNacimento-cadas" name="pessoa-cpf"  class="inputs" maxlength="10" placeholder="dd/mm/aaaa" onclick="alertNone05()">
+        
+        <div id="termos-serviços" >
+        <span id="alerta06"></span>
+                   <input type="checkbox" id="termos" onclick="alertNone06()"><p>Aceita concordar com nossos termos e cerviços ao cliente,que usam Lorem ipsum,dolor sit amet consectetur adipisicing elit. Fuga sit beatae neque quas laudantium magni.</p>
+        </div>
+            </div>
+            <div id="div-next">
+                <button id="button-next" onclick="continuar()">Continuar</button>
+            </div>
+        
+        </main>
+   
+<script src="cadastroCode.mjs"></script>
+<script nomodule src="backapscript.js"></script>
+
+
+</body>
+</html>

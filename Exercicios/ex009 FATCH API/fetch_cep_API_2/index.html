@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultando o cep</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+           background-color: rgb(178, 179, 246); 
+        }
+        form{
+            padding: 20px;
+            border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+        }
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(194, 194, 253);
+            padding: 20px;
+            min-width: 250px;
+            max-width: 1000px;
+            box-shadow: 0px 0px 10px rgb(150, 150, 255);
+         
+        }
+        .container{
+           
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1 style="text-align: center;">Consultar CEP</h1>
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" class="form-control" maxlength="9" id="cep"><!--os inputs presisão ter o mesmo id dos dados retornados pela api de cep -->
+                <small>0000-0000</small>
+            </div>
+            <div class="form-group">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" class="form-control" id="logradouro">
+                <small>rua.</small>
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro</label>
+                <input type="text" class="form-control" id="bairro">
+                <small>bairro</small>
+            </div>
+            <div class="form-group">
+                <label for="localidade">Localidade</label>
+                <input type="text" class="form-control" id="localidade">
+                <small>cidade</small>
+            </div>
+            <div class="form-group">
+                <label for="uf">UF</label>
+                <input type="text" class="form-control" id="uf">
+                <small>estado</small>
+            </div>
+        </form>
+        <div id="resu">
+            <p style="text-align: center;">Informações adicionais do CEP</p>
+        </div>
+    </div>
+    <script src="main2.js"></script>
+</body>
+
+</html>

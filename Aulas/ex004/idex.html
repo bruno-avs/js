@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Condições</title>
+        <style>
+            body{
+                background-color: rgba(251, 251, 194, 0.76);
+            }
+            main{
+                background-color: rgba(148, 148, 81, 0.472);
+                padding: 10px;
+                margin:auto;
+                width:1000px;
+                text-align:center;
+                border-radius:10px;
+                box-shadow:3px 3px 10px rgba(128, 118, 5, 0.363);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Sistemas de MuLta</h1>
+            <span>Velocidade do carro: <input type="number" name="txt01" id="txt01"> km/h
+            <input type="button" value="Verificar" onclick="calcular()"></span>
+            <div id="res"></div>
+        </main>
+        <script>
+            //Aqui temos uma condição simples 
+            function calcular() {
+                var vel = window.document.getElementById('txt01')
+                var resu = window.document.querySelector('div#res')
+                var Rvel = Number(vel.value)
+                resu.innerHTML= `<p>Sua velocidade atual é de <strong>${Rvel}</strong> km/h.`
+                    if(Rvel > 60){
+                        resu.innerHTML +=`Sua velocidade passou do limite de 60km/h você esta multad!!`
+                    }
+                resu.innerHTML +=`<p>Dirija sempre com <em>sito de segurançã</em>.</p>`
+
+
+            }
+        </script>
+    </body>
+</html>

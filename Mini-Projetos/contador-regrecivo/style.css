@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orbitron:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{ font-family:'timer-font';
+src:url('/font/Superstar\ M54.ttf') format('truetype');
+}
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(img/background-timer.jpg);
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-top: 260px;
+}
+#my-header{
+
+}
+#my-header > h1{
+ text-align: center;
+ font-family:'timer-font',Arial, Helvetica, serif;
+ color: #44D2F2;
+ text-shadow: 0px 0px 3px 3px #D95B72;
+ font-weight: 100;
+ font-size: 2em;
+ letter-spacing:2px;
+
+
+}
+
+main{
+    min-width:280px ;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/*timer*/
+#div-timer{
+margin-top: 10px;
+max-width: 600px;
+display: flex;
+justify-content:center;
+
+}
+.inputs-main{
+    text-shadow: 0px 0px 4px #062a49;
+    color: #44D2F2;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.096);
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 80px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
+    font-family: timer-font;
+}
+::placeholder{
+    font-family: timer-font;
+    color: #44D2F2;
+    text-align: center;
+    
+}
+#input-hours{
+    width: 30%;
+    
+}
+#input-minutes{
+    width: 30%; 
+}
+#input-seconds{
+    width: 30%;
+}
+/*Botões*/
+#div-button{
+    min-width: 100px;
+    max-width: 500px;
+    margin-top:15px;
+    display: flex;
+   
+ 
+}
+.inputs-button{
+    padding: 5px;
+    border-width: 5px;
+    border-color: #44D2F2;
+    margin: 0px 5px 0px 5px;
+    text-shadow: 0px 0px 5px black;
+    font-size: 18px;
+    color:#44D2F2;
+  
+}
+#iniciar{
+  
+    text-shadow: none;
+    background-color: #44D2F2;
+    width: 33%;
+    color: #083359;
+}
+#pausar{
+    background-color: #083359;
+    width: 33%;
+  
+}
+#zerar{
+    background-color: #083359;
+    width: 33%;
+}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(81, 71, 226);
+    
+}
+#header-menu{
+    background-color: rgb(220, 255, 243);
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    color:rgb(4, 35, 93);
+    text-shadow: 3px 3px 3px rgba(45, 107, 207, 0.431);
+    min-height:70px;
+    max-height: 150px;
+    padding-top: 20px;
+    font-size: 1.3em;
+   
+    border-style:double;
+    border-width: 1px;
+    border-color: rgb(3, 3, 133);
+}
+#main-content{
+    min-width: 250px;
+    max-width:1000px;
+    background-color:white;
+    padding: 10px;
+    margin:auto;
+    line-height: 1.5em;
+
+}
+::selection{
+    background-color: rgba(186, 107, 238, 0.541);
+    color: rgb(0, 0, 0);
+    
+}
+#article-data{
+ display:flex;
+ flex-wrap:wrap;
+ 
+}
+/*votar verificação */
+#section-voto{
+    background-color: rgba(255, 255, 0, 0.589);
+    padding: 20px;
+    margin-top:10px;
+    height:200px;
+    border-radius:10px;
+    border:1px double green;
+    margin: auto;
+    text-align: center;
+
+    
+
+}
+h1#voto{
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:2px;
+    line-height: 1.4em;
+    color: rgb(0, 0, 54);
+}
+#selecti-idade{
+    background-color: rgb(0, 0, 68);
+    color: white;
+    font-size: 1.2em;
+   min-width: 350px;
+   max-width:400px;
+   padding:10px;
+   border-radius:10px;
+   margin:auto;
+   margin-top: 20px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+#selecti-idade > input{
+ width: 40%;
+ border:none;
+ 
+}
+    #input-verificar-voto{
+        background-color: rgb(255, 230, 0);
+        color: rgb(10, 36, 0);
+        padding: 5px;
+        margin-top: 20px;
+        border-radius: 50px;
+        border:none;
+        box-shadow: 5px 5px;
+    }
+#resultado{
+    background-color: rgb(139, 190, 190);
+}
+

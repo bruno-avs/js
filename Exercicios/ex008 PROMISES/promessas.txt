@@ -1,0 +1,23 @@
+sites sobre promises
+
+iMaster 
+https://imasters.com.br/desenvolvimento/o-que-sao-promessas-em-javascript
+
+mozilla
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+videos sobre promises 
+
+Aprenda tudo sobre Promises de JavaScript em 20 minutos
+https://www.youtube.com/watch?v=87gWRVGRZ5o&ab_channel=MatheusBattisti-HoradeCodar
+
+JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await
+https://www.youtube.com/watch?v=7Bs4-rqbCQc&ab_channel=DevPleno
+
+2 passos fundamentais para você entender promises | JavaScript
+https://www.youtube.com/watch?v=y6HSxH0FIWM&ab_channel=RogerMelo
+
+COMO ULTILIZAR PROMESSES 
+site mozilla
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Using_promises
+

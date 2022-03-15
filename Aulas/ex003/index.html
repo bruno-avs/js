@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style contenteditable="true">
+
+        h1{
+           
+            margin: 30px 0px 0px 30px;
+            font-size:2.2em;
+
+        }
+        div#h1{
+            
+             background-color: cornflowerblue;
+             min-width: 300px;
+             max-width: 100%;
+             padding: 20px;
+             margin: -8px -8px 20px -8px;
+             text-align: center;
+             text-shadow: 5px 5px 6px rgba(2, 2, 15, 0.424);
+
+
+        }
+        div#mouse{
+            background-color:red;
+            color:wheat;
+            min-width: 150px;
+            max-width:200px;
+            min-height: 150px;
+            max-height:200px;
+            margin:auto;
+            line-height:150px;
+            text-align: center;
+            border-radius:20px;
+            border:1px double black;
+            box-shadow:5px 5px 10px rgba(0, 0, 0, 0.582);
+            font-size: 1.5em;
+        } 
+        #mouse2{
+            background-color:red;
+            color:wheat;
+            min-width: 150px;
+            max-width:200px;
+            min-height: 150px;
+            max-height:200px;
+            margin:auto;
+            line-height:150px;
+            text-align: center;
+            border-radius:20px;
+            border:1px double black;
+            box-shadow:10px 5px 0px rgb(26, 37, 136);
+            font-size: 1.5em;
+        }
+        #questoes{
+            text-align: center;
+            background-color:rgba(11, 60, 139, 0.705);
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 5px 5px 10px rgba(3, 30, 119, 0.5);
+            height:auto;  
+        }
+        article{
+            text-align: center;
+            background-color:rgba(11, 60, 139, 0.705);
+            padding: 20px;
+           margin-top: 10px;
+            box-shadow: 5px 5px 10px rgba(3, 30, 119, 0.5);
+            height:auto; 
+        }
+        header{
+            height:auto;
+            overflow:hidden;
+
+        }
+                main{
+                   background-color: blueviolet;
+                   min-width: 300px;
+                   max-width: 1000px;
+                   margin: auto;
+                   height:1000px;
+                   padding: 10px;
+                   border-radius:0px 0px 10px 10px;
+                   margin-top:-20px
+
+                }
+                .Q{
+                     margin: 5px;
+                     min-width: 300px;
+                     max-width: 500px;
+                     border-radius: 10px;
+                     border-style:cadetblue;
+                     border-width: 1px;
+                     background-color: rgb(222, 234, 248);
+
+                     
+                    
+                }
+                p{
+                    text-align: justify;
+                }
+            #q1{
+               
+                box-shadow: 2px 2px 6px rgb(6, 37, 95);
+            }
+            #q2{
+               
+                box-shadow: 2px 2px 6px rgb(6, 37, 95);
+            }
+            #q3{
+               
+                box-shadow: 2px 2px 6px rgb(6, 37, 95);
+            
+            }
+            #q4{
+                
+                box-shadow: 2px 2px 6px rgb(6, 37, 95);
+            
+            }
+            #q5{
+                box-shadow: 2px 2px 6px rgb(6, 37, 95);
+               
+            }
+            #q6{
+                box-shadow: 2px 2px 6px rgb(6, 37, 95);
+               
+            }
+            #h{
+                background-color: blanchedalmond;
+            }
+             .somar{
+                 display:flex;
+                 flex-direction:column;
+                 align-items: flex-start;
+                 
+                  
+             }
+
+
+        
+    </style>
+</head>
+<body>
+    
+    <div id="h1">
+        
+            <h1>
+              
+                Seus resultados ficaram aqui
+            </h1> <hr>
+    </div> 
+       
+    <header>
+        
+                
+    </header>
+        
+   
+    <main>  
+        <div id='mouse' onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
+                    Interaja.......
+                </div>
+                <div id="mouse2" contenteditable="">
+                    interaja.......
+        </div>
+        <article>
+            
+                <input type="number" name="nunb1" id="nunb1"> + <!---->
+                <input type="number" name="nunb2" id="nunb2">
+                <input type="button" value="somar" onclick="somar()">
+                <div id="resu"> Resultado:</div>
+       
+        
+
+    </article>
+
+         <article id="questoes">
+
+             <h1>Questões</h1>
+   <h2>Quais são os operadores aritmeticos</h2>
+           <section class='somar'>
+               Soma: <div>        <input type="text" class="Q" id="q1"></div>
+               Subtração: <div>   <input type="text"  class="Q" id="q2"></div>
+               Multiplicação:<div><input type="text"  class="Q" id="q3"></div>
+               Divisão:<div>      <input type="text"  class="Q" id="q4"></div>
+               Resto da divisão interira:<div><input type="text"  class="Q" id="q5"></div>
+               Potencia<div>       <input type="text"  class="Q" id="q6"></div>
+                         <div><input type="button" value="Verificar" class="Q" onclick="cli"></div>
+           </section>
+
+         
+
+        </article>
+        <div id="h">Resultado</div>
+
+    </main>
+    
+    
+    
+    <script> 
+    function cli(){
+    var q1 = document.querySelector('input#q1')
+    var q2 = document.getElementById('q2')
+    var q3 = document.querySelector('input#q3')
+    var q4 = document.getElementById('q4')
+    var q5 = document.querySelector('input#q5')
+    var q6 = document.getElementById('q6')
+    var t1 = document.getElementById('h')
+    
+    var rq1 = q1 == '+'?'certo':'errado'
+    var rq2 = q2 == '-'?'certo':'errado'
+    var rq3 = q3 == '*'?'certo':'errado'
+    var rq4 = q4 == '/'?'certo':'errado'
+    var rq5 = q5 == '%'?'certo':'errado'
+    var rq6 = q6 == '**'?'certo':'errado'
+   
+    t1.innerText = ` resultado ${q2}`
+    }
+     var click = window.document.getElementById('mouse')
+
+     var box2 = window.document.querySelector('div#mouse2')// adicionado eventos usando o addEventListener
+     addEventListener('click', cli)
+     addEventListener('mouseenter', entro)
+     addEventListener('mouseout', sai)
+     
+     function somar(){
+     var numero1 = window.document.getElementById('nunb1')//funçao que pega o valor do primeiro 
+     var numero2 = window.document.getElementById('nunb2')// e do segundo numero
+     var res = window.document.getElementById('resu')
+
+     var n1 = Number(numero1.value) //converte pra number 
+     var n2 = Number(numero2.value)
+
+     var resu = n1 + n2//soma       
+
+     res.innerText = `O resultado da soma entre ${n1} e ${n2} deu: ${resu} ` //e mostra o resultado
+    }
+     function cli(){
+         box2.innerText = "clicou"
+         box2.style.boxShadow = "none"
+        
+     }
+     function entro(){
+        box2.innerText = 'entrou' 
+     }
+     function sai(){
+        box2.innerText = "saiu"
+        box2.style.boxShadow = "10px 5px 0px black "
+     }
+     function clicar() {
+         click.innerText = 'clicou'
+     }
+     function entrou(){
+         click.innerText = 'entrou'
+     }
+     function saiu(){
+      click.innerText = "saiu"
+     }
+     
+     /*var sn = window.confirm('Ola bom dia, você poderia por favor nos renponder algumas perguntas?')
+     var nome = sn == true? window.prompt('Seu nome'):window.alert('Até breve')  
+     var idade = sn == true? window.prompt('Sua idade'): null
+     var estudo = sn == true && idade >= 18? window.prompt('Sua formação'):null
+     idade < 18 && sn == true? window.alert('Ops, infelismente você não pode acessar o nosso site.  '):null
+     */
+    
+
+     
+
+      </script>
+    
+</body>
+</html>

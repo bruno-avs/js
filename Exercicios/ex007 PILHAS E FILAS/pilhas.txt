@@ -1,0 +1,10 @@
+videos sobre estrutura de dados pilha
+
+Estruturas de Dados: Pilhas
+https://www.youtube.com/watch?v=DnHSTYuk-V4&ab_channel=DevPleno
+
+Estruturas de Dados - O que são Pilhas
+https://www.youtube.com/watch?v=EocahNeZcn0&list=RDCMUCzOGJclZQvPVgYZIwERsf5g&start_radio=1&rv=EocahNeZcn0&t=670&ab_channel=B%C3%B3sonTreinamentos
+
+sites
+https://www.digitalocean.com/community/tutorials/understanding-the-event-loop-callbacks-promises-and-async-await-in-javascript?segment=1*lovf5y*s_amp_id*TEFoVVJhVzVNR005NEZCY05OTTgtb3Vpdjd4cEg0YkV4UG5GVTdrLVNqay1UZW9QLUMxNEFxOTFLZW1RN0RyUg..&_gl=1*7u1tem*_ga*TEFoVVJhVzVNR005NEZCY05OTTgtb3Vpdjd4cEg0YkV4UG5GVTdrLVNqay1UZW9QLUMxNEFxOTFLZW1RN0RyUg

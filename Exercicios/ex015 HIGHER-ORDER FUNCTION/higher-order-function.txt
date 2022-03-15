@@ -1,0 +1,2 @@
+O que são e quando usar higher order functions em JavaScript puro | map, filter e reduce
+https://www.youtube.com/watch?v=bdLkAm12pgI&list=WL&index=2&t=136s&ab_channel=RogerMelo

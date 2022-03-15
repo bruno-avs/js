@@ -1,0 +1,1 @@
+alert("[ERRO] seu navegador esta desatualizado")

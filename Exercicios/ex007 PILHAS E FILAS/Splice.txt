@@ -1,0 +1,8 @@
+Sobre o método splice
+
+Mozzila
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+W3C
+https://www.w3schools.com/jsref/jsref_splice.asp
+

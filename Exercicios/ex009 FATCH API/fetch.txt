@@ -1,0 +1,13 @@
+video que mostra o funcionamento do fatch:
+
+Usando a FETCH API do JavaScript
+https://www.youtube.com/watch?v=v9JVA6tVmcg&ab_channel=EmersonBroga
+
+Consultando API de CEP com Fetch API, o novo AJAX
+https://www.youtube.com/watch?v=Pi6wkdU2vR4&list=TLPQMjUxMTIwMjHJawifWN8HQQ&index=2&ab_channel=hcode
+
+este o fatch aparace no final do video
+https://www.youtube.com/watch?v=Tvbz6u3TyjA&ab_channel=ProgramadoraBordo
+
+esta é a parte 2 do video acima
+https://www.youtube.com/watch?v=Ny4yUi4FwGg&list=TLPQMjUxMTIwMjGwwTaHjPBEgw&index=3&ab_channel=ProgramadoraBordo

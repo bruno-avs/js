@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de voto</title>
+    <link rel="shortcut icon" href="favocon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <div id="content-header">
+            <h1 id="h1-header" class="h1-content"> Verificador de voto</h1>
+            <p id="p-header">verifique agora se você pode votar</p>
+        </div>
+        <div id="nome-input">
+
+        </div>
+
+
+    </header>
+    <section id="content-voto" class="section-main">
+
+
+
+        <main id="content-princ">
+            <h1 id="h1-main">
+                Coloque seus dados abaixo
+            </h1>
+            <div id="div-dados">
+
+
+                <label for="dados-nome">Nome :</label>
+                <input type="text" title="nome" id="dados-nome" name="nome-people" class="inputs">
+                <label for="dados-sobrenome">Sobrenome :</label>
+                <input type="text" title="sobrenome" id="dados-sobrenome" name="nome-people" class="inputs">
+                <label for="dados-nacimento">Data de nacimento :</label>
+                <input type="date" title="Data de nacimento" id="dados-nacimento" name="nacimento" class="inputs">
+                <div id="div-sexo">
+                    <span>Sexo :</span><br>
+                    <input type="radio" id="sexo-masculino" name="radsex" title="homen" checked class="sexo">
+                    <label for="sexo-masculino"> Masculino</label>
+                    <input type="radio" id="sexo-feminino" name="radsex" title="mulher" class="sexo">
+                    <label for="sexo-feminino"> Feminino</label>
+
+                </div>
+
+                <div id="analisar-reset">
+                    <label for="resetar"><input type="button" value="resetar" title="resetar" id="resetar"
+                            name="buttonmm" class="botoes"></label>
+                    <label for="button-analisar"><input type="button" value="analisar" title="verificar o voto"
+                            id="button-analisar" name="button" class="botoes"></label>
+
+                </div>
+            </div>
+
+            <div id="resul">
+                <span id="p-resultado">Aqui ficara o resultado da analise.</span><br>
+                <img src="../imagens/foto-resultado.png" alt="foto de um boneco analisando uma lista"
+                    title="Analisando......." id="foto-resultado">
+            </div>
+        </main>
+
+        <article>
+            <aside id="aside-extra">
+                <h2> Faltam </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolores aut quod, officiis, nobis
+                    laboriosam mollitia sequi maiores reiciendis voluptatibus at, labore dolor laudantium? Molestias
+                    praesentium neque consectetur rerum amet! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tempore deleniti hic esse neque voluptates quasi possimus error repellat, illo corporis quaerat
+                    sapiente blanditiis facere harum nam amet magnam magni tempora!</p>
+            </aside>
+        </article>
+    </section>
+    <footer>
+
+    </footer>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

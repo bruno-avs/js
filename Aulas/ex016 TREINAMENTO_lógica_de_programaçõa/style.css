@@ -1,0 +1,73 @@
+@charset "UTF-8";
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+body{
+    background-color: rgb(111, 111, 175);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  
+}
+header{
+    background-color: rgb(0, 0, 184);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px double rgb(255, 255, 255);
+    font-size: 1.4em;
+}
+main{
+    background-color: rgb(3, 72, 184);
+    max-width: 1000px;
+    min-width: 250px;
+    height: 100%; 
+    text-align:center;
+    padding: 20px;
+    font-size: 1.3em;
+    color: white;
+    border-style:dashed;
+    border-width: 1px;
+    border-color:rgb(0, 0, 90);
+    
+    
+     margin: auto;
+}
+#section-data{
+    background-color: rgb(143, 192, 248);
+    width:85%;
+     height:800px;
+     margin:auto;
+     padding: 10px;
+     border-radius:10px;
+     box-shadow:0px 0px 5px 3px rgba(10, 6, 58, 0.527);
+     color: black;
+     margin-top: 30px;
+     display:flex;
+     flex-direction:column ;
+     flex-wrap: wrap;
+     
+     
+    
+
+     
+  
+}
+
+
+.divs-data{
+    font-size: 16px;
+}#nome-sobre{
+     
+
+    display:flex;
+    justify-content:flex-start;
+    
+    align-self: flex-start;
+     
+}
+#idade-dataNacimento{
+    display:flex;
+    justify-content:flex-start;
+    padding:10px;
+}

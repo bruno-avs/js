@@ -1,0 +1,4 @@
+A técnica que vai deixar suas funções reutilizáveis e componíveis 
+- Currying | JavaScript puro
+
+https://www.youtube.com/watch?v=hyHqeuyDOk4&list=TLPQMjgxMTIwMjHUWNDOrNOa3w&index=3&ab_channel=RogerMelo

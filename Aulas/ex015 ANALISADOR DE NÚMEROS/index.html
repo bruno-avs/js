@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analisador de numeros</title>
+       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+    <body>
+        <header>
+             <h1>Analisador de números</h1>
+        </header>
+        <section>
+            <h2 id='Como funciona?'></h2>
+            <p>È simples apenas digite um numero na opição abaixo </p>
+           
+            <div id="div-first">
+                <form action="" id="resetar">
+                    <label for="input-n"> Números de 1 a 100 :
+                    <input type="number" min="0" id="input-n">
+                    <input type="button" value="adicionar" id="gerar" name="gerar-inp" onclick="adicionar()"></label>
+                     
+                                </div>
+                                <div id="div-second">
+                    <select size="10" id="tab" style="width: 300px; text-align: center;">
+                        <option value="on">Digite um numero acima</option>
+                    </select><br>
+                    <input type="reset" value="resetar"> 
+                
+                    <input type="button" value="analizar" id="input-analizar" onclick="analizar()"> 
+                   
+                </form>
+              
+
+           <div id="resu" style='text-align: left;'>
+          
+           </div>
+
+        </section>
+    
+        <footer>
+            <p>&copy; Curso em video</p>
+        </footer>
+        <script src="funções.js"></script>
+    </body>
+</html>

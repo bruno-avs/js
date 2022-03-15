@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <title>Tratamento de dados</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+    </head>
+    <body>
+        <header>
+            <h1>resultado da soma</h1>
+        </header>
+        <nav>
+            <a href="#">link</a>
+        </nav>
+        <main>
+            <h1>resutados</h1>
+
+
+        </main>
+        <footer>
+            
+        </footer>
+        <script>
+            //comvertendo de string para number... numero inteiro
+            var n1 = Number.parseInt(window.prompt('digite um número inteiro'))//variavel n1...
+            var n2 = Number.parseInt(window.prompt('Digite outro numero inteiro'))
+            var rs = n1 + n2 
+            window.alert(`O resultado da soma ${n1} mais ${n2} deu: ${rs}`)//Usando template string com place hoader
+            document.write(`O resultado é: ${rs} <br>`)//mandando escrever no documento
+
+            //convertendo de string para number....numero real float
+            var r1 = Number.parseFloat(window.prompt('Digite aqui um número real:'))
+            var r2 = Number.parseFloat(window.prompt('digite mais um número real:'))
+            var resf = r1 + r2 
+            window.alert('o resultado da soma dos dois numeros reais '+r1+' e '+r2+' deu: '+resf)//mostrando o resultado da soma usando a tecnica de concatenação com o sinal de mais
+            document.write('O resultado da soma de:'+r1+' mais '+r2+' deu '+resf+'<br>')
+            //mostrando a quantidade de letras de uma palavra.... deixando as letras em minuscula e maiscula
+            var nome = window.prompt('Seu nome: ')
+            var palavra = window.prompt('Sua palavra preferida: ')
+            var salario = Number(window.prompt('Seu salario')) 
+            window.alert('obrigado')
+            document.write(` Ola ${nome.toString()}, Seu nome tem ${nome.length} letras, em maiúsculo fica ${nome.toUpperCase()} e em minúsculo fica ${nome.toLowerCase()}, seu salario e de ${salario.toFixed(2)} em reais ${salario.toLocaleString('pt-br', {style:'currency', currency:'BRL'})} `)
+
+            
+
+            
+
+
+
+
+        </script>   
+
+
+        
+    </body>
+</html>
