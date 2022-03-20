@@ -1,0 +1,15 @@
+Entendendo Herança e Prototype em JavaScript (Prototype Chain)
+[video]
+https://www.youtube.com/watch?v=7ZxYJw9ebaM&ab_channel=SouDev
+
+Explorando Prototypes em JavaScript
+[video]
+https://www.youtube.com/watch?v=Uk2MT1WyG4k&list=TLPQMjAwMzIwMjJQ12-BVWTx9g&index=3&ab_channel=RogerMelo
+
+JavaScript puro: Como prototypes podem otimizar o código da sua aplicação
+[video]
+https://www.youtube.com/watch?v=yke9m4V9UWQ
+
+Essa é a verdadeira herança do JavaScript
+[vídeo]
+https://www.youtube.com/watch?v=neqw4OJtXmM
