@@ -38,3 +38,5 @@ let cadastro2 = {
 }
 Object.setPrototypeOf(cadastro2, pessoa3)
 console.log(cadastro2.falar())
+
+

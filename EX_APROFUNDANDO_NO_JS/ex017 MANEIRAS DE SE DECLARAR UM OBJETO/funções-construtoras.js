@@ -5,6 +5,7 @@ function CreateMouses(cor = 'black', marca = 'sem marca'){
     this.status = true
     
 }
+
 CreateMouses.prototype.onOf = function(){ // com uma função construtora é possivel setar propriedades e métodos no prototype 
     if(this.status){
         console.log('Esta conectado.')

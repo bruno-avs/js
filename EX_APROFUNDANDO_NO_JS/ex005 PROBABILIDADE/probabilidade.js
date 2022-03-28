@@ -1,4 +1,4 @@
-let pontosAmostrais = [1,2,3,4,5];
+let pontosAmostrais = [6,4,5];
 let espaçoAmostral = 6
 function calcular(pA, eA){
     let t = 0;
